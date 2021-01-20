@@ -1,0 +1,14 @@
+@import 'assets/sass/utilities/config';
+@import 'assets/sass/utilities/utilities';
+
+.Header {
+  padding: 20px;
+  text-align: center;
+  background-color: $caribbean-green;
+
+  h1 {
+    margin: 0;
+    color: $white;
+    font: normal normal 20px $font-family--primary-medium;
+  }
+}

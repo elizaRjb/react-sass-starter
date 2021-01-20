@@ -1,0 +1,12 @@
+@import 'assets/sass/utilities/config';
+@import 'assets/sass/utilities/utilities';
+
+.MainPage {
+  padding: 50px 0;
+
+  @include e(text) {
+    color: $black;
+    letter-spacing: 0.03px;
+    font: normal normal 16px $font-family--secondary;
+  }
+}
